@@ -78,16 +78,16 @@ export default {
             },
 
             renderFormItem: [
-                {
-                    type: 'input',
-                    key: 'text',
-                    label: '标题',
-                    required: true,
-                    slotAttrs: {placeholder: '请输入标题', clearable: true, readonly: true},
-                    otherAttrs: {inlineMessage: true},
-                    row: 2,
-                    col: 12,
-                },
+                // {
+                //     type: 'input',
+                //     key: 'text',
+                //     label: '标题',
+                //     required: true,
+                //     slotAttrs: {placeholder: '请输入标题', clearable: true, readonly: true},
+                //     otherAttrs: {inlineMessage: true},
+                //     row: 2,
+                //     col: 12,
+                // },
                 {
                     type: 'select',
                     key: 'gameSel',
