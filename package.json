@@ -6,5 +6,13 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "packages/vue-next/**"
+      ]
+    }
+  },
+  "version": "independent"
 }

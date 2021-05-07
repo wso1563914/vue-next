@@ -1,0 +1,29 @@
+0 silly argv {
+0 silly argv   _: [ 'version' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   bump: 'patch'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath E:\otherSpaces\lerna\vue-next
+3 info current version 0.0.1
+4 silly isAnythingCommitted
+5 verbose isAnythingCommitted 1
+6 silly getCurrentBranch
+7 verbose currentBranch master
+8 silly remoteBranchExists
+9 silly isBehindUpstream
+10 error Error: Command failed with exit code 1: git remote update
+10 error git@github.com: Permission denied (publickey).
+10 error fatal: Could not read from remote repository.
+10 error
+10 error Please make sure you have the correct access rights
+10 error and the repository exists.
+10 error error: Could not fetch origin
+10 error Fetching origin
+10 error     at makeError (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\execa\lib\error.js:59:11)
+10 error     at Function.module.exports.sync (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\execa\index.js:186:17)
+10 error     at Object.execSync (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\@lerna\child-process\index.js:39:16)
+10 error     at updateRemote (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:34:16)
+10 error     at isBehindUpstream (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\@lerna\version\lib\is-behind-upstream.js:16:3)
+10 error     at VersionCommand.initialize (C:\Users\chenzhixia\AppData\Roaming\nvm\v12.18.3\node_modules\lerna\node_modules\@lerna\version\index.js:153:9)
