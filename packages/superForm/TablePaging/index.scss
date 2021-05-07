@@ -1,0 +1,26 @@
+.tablePaging {
+  // margin-top: 10px;
+  // margin-bottom: 4px;
+
+  .pop-confirm {
+    margin-left: 10px;
+  }
+
+  .gray {
+    color: #acacac;
+  }
+
+  .el-button--small{
+    font-size: 14px;
+  }
+
+  .el-pagination {
+    margin-top: 16px;
+  }
+}
+::v-deep .el-table td {
+  padding: 8px 0;
+}
+::v-deep.el-link.el-link--default {
+  font-weight: 400;
+}
