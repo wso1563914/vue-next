@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import SuperForm from '@/components/SuperForm';
+import {SuperForm} from 'superform';
 let gameArr = [
     {
         label: '吃鸡',

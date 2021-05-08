@@ -1,15 +1,15 @@
 <template>
     <el-dialog v-if="visible" :visible="visible" v-bind="$attrs" :close-on-click-modal="false" v-on="$listeners">
-        <super-form :ref="formRef" form-ref="modalForm" v-bind="formAttrs" />
+        <!-- <super-form :ref="formRef" form-ref="modalForm" v-bind="formAttrs" /> -->
     </el-dialog>
 </template>
 
 <script>
-    import { SuperForm } from '@/Components/superForm/SuperForm';
+    // import { SuperForm } from '@/Components/superForm/SuperForm';
 
     export default {
         name: 'DialogForm',
-        components: { SuperForm },
+        // components: { SuperForm },
         props: {
             visible: {
                 // 弹窗显隐
